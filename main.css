@@ -406,3 +406,150 @@
     
     
 }
+@media screen and (max-width: 520px){
+    p{
+        font-size: 1rem;
+    }
+    #owner{
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    .first{
+        padding: 1rem;
+    }
+    .first img{
+        width: 100px;
+    }
+    .but-0{
+        width: 120px;
+        padding: 12px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .owner-1{
+        align-items: center;
+        text-align: center;
+        font-weight: 300;
+        margin: 0 auto 30px;
+    }
+    .owner-1 h1{
+        padding-top: 2rem;
+        font-size: 35px;
+    }
+    .all{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .but-1{
+        width: 220px;
+        padding: 12px;
+    }
+    .img-1{
+         width: 350px;
+    }
+    .sec-1{
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+    }
+    .sec-1 h2{
+        margin-bottom: 1rem;
+        margin-top: -80px;
+    }
+    .second{
+        margin: 1rem;
+        padding: 3rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .second img{
+        width: 330px;
+    }
+    .thir-1{
+        text-align: center;
+        align-items: center;
+        font-weight: 400;
+    }
+    .thir-1 h2{
+        margin-top: -80px;
+    }
+    .third{
+        margin: 1rem;
+        padding: 3rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .third img{
+        width: 330px;
+    }
+    .fou-1{
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+    }
+    .fou-1 h2{
+        margin: 3rem;
+        margin-bottom: 1rem;
+        margin-top: -80px;
+    }
+    .fourth{
+        margin: 1rem;
+        padding: 3rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .fourth img{
+        width: 350px;
+    }
+    .fifth{
+        padding: 2rem;
+        margin-top: 6rem;
+        width: 400px;
+        font-size: 15px;
+        margin-bottom: -70px;
+    }
+    .but-3{
+        width: 200px;
+        padding: 15px;
+    }
+    footer{
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .outer{
+        flex-direction: column;
+        gap: 10px;  
+    }
+    .but-4{
+        width: 200px;
+        clip-path: inset(0 160px 0 0);
+        margin-right: -150px;
+    }
+    .but p{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .a p{
+        padding: 1rem;
+        line-height: 1.8;
+    }
+    .a img{
+        margin-right: 1rem;
+        margin-bottom: -1.5rem;
+    }
+    .b{
+        padding: 10px;
+    }
+    .last{
+        text-align: center;
+        font-size: 0.999rem;
+        padding: 2rem;
+        white-space: nowrap;
+    }
+    .social{
+        justify-content: center;
+        align-items: center !important;
+        width: 25rem;
+    }
+}
