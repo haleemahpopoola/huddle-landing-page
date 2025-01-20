@@ -401,7 +401,7 @@
     .social{
         justify-content: center;
         align-items: center !important;
-        width: 20rem;
+        align-self: center;
     }
     
     
@@ -550,6 +550,6 @@
     .social{
         justify-content: center;
         align-items: center !important;
-        width: 25rem;
+        align-self: center;
     }
 }
