@@ -4,7 +4,7 @@
 ## Table of Contents
 -[Introduction](#introduction)  
 -[Project-overview](#[Project-overview)  
--{features}(#features)  
+-{Features}(#Features)  
 -[setup](#setup)  
 -[Tool-Used](#Tool-Used)  
 -[Contributing](#Contributing)    
