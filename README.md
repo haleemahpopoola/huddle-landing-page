@@ -4,7 +4,6 @@
 ## Table of Contents
 -[Introduction](#introduction)  
 -[Project-overview](#[Project-overview)  
--{Features}(#Features)  
 -[setup](#setup)  
 -[Tool-Used](#Tool-Used)  
 -[Contributing](#Contributing)    
@@ -26,14 +25,6 @@ The HTML & CSS Challenge is all about combining structure and style to bring ide
 - **Clear structure** with semantic HTML tags  
 - **Beautiful styling** using modern CSS techniques  
 - An accessible, responsive, and user-friendly design  
-
-## 🚀 Features  
-
-- Fully responsive webpage design  
-- CSS styling for typography, layouts, and animations  
-- Semantic and accessible HTML structure  
-- Organized CSS using comments and clear selectors  
-
 ## Setup
 1. Clone the repository:
    ```bash
