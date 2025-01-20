@@ -9,7 +9,6 @@
     body{
         font-family: 'POPPINS',sans-serif;
         font-size: 18px;
-        width: 200vh;
 
     }
     #owner{
@@ -18,7 +17,6 @@
         background-repeat: no-repeat;
         background-position: center;
         background-color: hsl(193, 100%, 96%);
-        width: 200vh;
     }
     }
     .first{
@@ -180,7 +178,6 @@
     }
     footer{
         background-color: hsl(192, 100%, 9%);
-        width: 200vh;
         color: hsl(0, 0%, 100%);
         padding: 3rem;
         
@@ -240,9 +237,143 @@
         color: white;
     }
     a:hover{
-        text-decoration: underline;
+        text-decoration: underline;   
+}
+@media screen and (max-width: 376px){
+    body{
+        max-width: 376;
+        font-size: 15px;
     }
-    
-
+    }
+    #owner{
+        background-image: url(images/bg-hero-mobile.svg);
+    }
+    .first{
+        padding: 1rem;
+    }
+    .first img{
+        width: 100px;
+    }
+    .but-0{
+        width: 100px;
+        padding: 8px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .owner-1{
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+        font-weight: 300;
+    }
+    .owner-1 h1{
+        padding-top: 2rem;
+        font-size: 25px;
+    }
+    .all{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .but-1{
+        width: 200px;
+        padding: 8px;
+        margin-bottom: 1rem;
+    }
+    .img-1{
+         width: 250px;
+    }
+    .sec-1{
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+        font-weight: 300;
+    }
+    .sec-1 h2{
+        margin: 3rem;
+        margin-bottom: 1rem;
+    }
+    .second{
+        margin: 1rem;
+        padding: 4rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .second img{
+        width: 300px;
+    }
+    .thir-1{
+        text-align: center;
+        align-items: center;
+        white-space: nowrap;
+        font-weight: 300;
+    }
+    .thir-1 h2{
+        margin-top: 3rem;
+    }
+    .third{
+        margin: 1rem;
+        padding: 4rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .third img{
+        width: 300px;
+    }
+    .fou-1{
+        align-items: center;
+        text-align: center;
+        white-space: nowrap;
+        font-weight: 300;
+    }
+    .fou-1 h2{
+        margin: 3rem;
+        margin-bottom: 1rem;
+    }
+    .fourth{
+        margin: 1rem;
+        padding: 4rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .fourth img{
+        width: 300px;
+    }
+    .fifth{
+        padding: 2rem;
+        margin-top: 6rem;
+        width: 350px;
+        font-size: 12px;
+        margin-bottom: -70px;
+    }
+    .but-3{
+        width: 180px;
+        padding: 10px;
+    }
+    footer{
+        padding: 0.5rem;
+    }
+    .outer{
+        flex-direction: column;
+        gap: 20px;
+        white-space: nowrap;
+        font-size: 16px;
+        
+    }
+    .but-4{
+        width: 200px;
+        clip-path: inset(0 160px 0 0);
+        margin-right: -150px;
+    }
+    .but{
+    font-size: 35px;
+    font-weight: 600;
+    }
+    .last{
+        align-items:center;
+        gap: 10px;
+        font-size: 12px;
+        margin: 3rem;
     
 }
