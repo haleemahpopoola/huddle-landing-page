@@ -5,11 +5,12 @@
         padding: 0;
         box-sizing: border-box;
     }
-    body{
-        font-family: 'POPPINS',sans-serif;
-    }
     br{
         display: none;
+    }
+    body{
+        font-family: 'POPPINS',sans-serif;
+        min-width: 1200px;
     }
     #owner{
         background-image: url(images/bg-hero-desktop.svg);
@@ -41,18 +42,20 @@
         justify-content: center;
         align-items: flex-start;
         text-align: left;
-        font-size: 1.210rem;
-        line-height: 1.8;
+        font-size: 1.220rem;
+        line-height: 1.5;
         margin-bottom: 30px;
         white-space: wrap;
+        max-width: 350px;
     }
     .owner-1 h1{
-        margin-top: -50px;
+        margin-top: 80px;
         margin-bottom: 1.5rem;
         font-weight: 600;
         line-height: 1.5;
-        font-size: 40px;
+        font-size: 45px;
         text-transform: capitalize;
+        min-width: 500px;
     }
     .all{
         padding: 2.5rem;
@@ -83,12 +86,13 @@
         font-size: 0.990rem;
         line-height: 1.6;
         margin-bottom: 30px;
-        white-space: wrap;
+        min-width: 430px;
     }
     .sec-1 h2{
         font-weight: 500;
         margin-bottom: 1rem;
         text-transform: capitalize;
+        min-width: 330px
     }
     .second{
         margin: 3rem;
@@ -112,12 +116,13 @@
         font-size: 0.950rem;
         line-height: 1.6;
         margin-bottom: 30px;
-        white-space: wrap;
+        min-width: 400px;
     }
     .thir-1 h2{
         font-weight: 500;
         margin-bottom: 1rem;
         text-transform: capitalize;
+        min-width: 330px;
     }
     .third{
         margin: 3rem;
@@ -141,12 +146,13 @@
         font-size: 0.990rem;
         line-height: 1.6;
         margin-bottom: 30px;
-        white-space: wrap;
+        min-width: 400px;
     }
     .fou-1 h2{
         font-weight: 500;
         margin-bottom: 1rem;
         text-transform: capitalize;
+        min-width: 330px;
     }
     .fourth{
         margin: 3rem;
@@ -210,6 +216,7 @@
         line-height: 1.8;
         margin-bottom: 30px;
         white-space: wrap;
+        min-width: 300px;
     }
     .a img{
         margin-right: 1.5rem;
@@ -258,6 +265,9 @@
     }
 }
 @media screen and (max-width: 376px){
+    body{
+        min-width: 376px;
+    }
     p{
         font-size: 0.999rem;
     }
@@ -407,6 +417,9 @@
     
 }
 @media screen and (max-width: 520px){
+    body{
+        min-width: 520px;
+    }
     p{
         font-size: 1rem;
     }
@@ -432,7 +445,7 @@
     }
     .owner-1 h1{
         padding-top: 2rem;
-        font-size: 35px;
+        font-size: 40px;
     }
     .all{
         flex-direction: column;
@@ -461,6 +474,7 @@
         padding: 3rem;
         flex-direction: column-reverse;
         align-items: center;
+        min-width: 300px;
     }
     .second img{
         width: 330px;
